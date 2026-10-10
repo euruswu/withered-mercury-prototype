@@ -1,1 +1,1 @@
-# withered-mercury-prototype
+# The mercury puzzle prototype in Withered_still.
