@@ -6,7 +6,7 @@
 
 ![Godot 中的水银谜题画面](docs/preview.png)
 
-## 在你的 Mac 上打开
+## 在 Mac 上打开
 
 1. 在仓库页面点击 **Code → Download ZIP**，下载后解压。
 2. 打开 **Godot 4.7.2**，在项目管理器点击 **Import / 导入**，选择文件夹里的 **`project.godot`**。
