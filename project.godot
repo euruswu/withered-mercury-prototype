@@ -1,0 +1,24 @@
+; Open this file in Godot 4.7.2 Standard, then press F6 or F5.
+config_version=5
+
+[application]
+config/name="汞回路 · Mercury Return"
+run/main_scene="res://scenes/mercury_puzzle.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/icon.svg"
+
+[display]
+window/size/viewport_width=1120
+window/size/viewport_height=800
+window/size/window_width_override=1120
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.064, 0.083, 0.08, 1)
+
+[gui]
+theme/default_font_multichannel_signed_distance_field=true
