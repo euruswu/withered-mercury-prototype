@@ -48,7 +48,7 @@ docs/INTEGRATION.md             接入房间的方法与验证说明
 
 ## 运行验证
 
-在工程目录执行（`godot` 指你安装的 Godot 4.7.2 可执行程序）：
+在工程目录执行（`godot` 指安装的 Godot 4.7.2 可执行程序）：
 
 ```sh
 godot --headless --editor --import --quit
@@ -58,7 +58,7 @@ godot --headless --script tests/test_puzzle.gd
 
 首次导入后，可直接按 F5 玩；上面的命令只用于开发验证。
 
-已在 Linux 的 Godot **4.7.2.stable.official.ed1daf0bf** 中完成无界面测试与实际 OpenGL 渲染检查，包括中文 / 英文、失败 / 通关状态以及较小窗口。Mac 上的实际手感仍由你试玩确认。
+已在 Linux 的 Godot **4.7.2.stable.official.ed1daf0bf** 中完成无界面测试与实际 OpenGL 渲染检查，包括中文 / 英文、失败 / 通关状态以及较小窗口。Mac 上的实际手感仍由玩家试玩确认。
 
 这是一个独立谜题原型。房间探索、日期输入、道具栏、侦探笔记本和剧情转场在《朽然》主体工程中另行接入。默认画面为程序绘制的深绿金属仪器风格，方便之后替换正式美术。
 
